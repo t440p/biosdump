@@ -4,9 +4,9 @@ The Lenovo T440P BIOS is contained in two rom chips: [W25Q64.V](https://www.pjrc
 
 [CH341A Flash Programmer](https://tinyurl.com/ch341aEbay) used to interface over SPI.  
 
--- 4MB_BIOS.bin (W25Q32.V - 4096 KB)
--- 8MB_BIOS.bin (W25Q64.V - 8192 KB)
--- FULL_BIOS.bin
+-- 4MB_BIOS.bin (W25Q32.V - 4096 KB)  
+-- 8MB_BIOS.bin (W25Q64.V - 8192 KB)  
+-- FULL_BIOS.bin  
    ```bash 
    cat 8MB_BIOS.bin 4MB_BIOS.bin > FULL_BIOS.bin
    ```
